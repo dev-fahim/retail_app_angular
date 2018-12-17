@@ -1,0 +1,155 @@
+<div class="container-fluid">
+  <p class="lead">Daily Sales Entry</p>
+  <mat-divider class="mb-2"></mat-divider>
+  <div class="row m-1" id="main-box">
+    <div class="col-9 border">
+      <p class="lead border-bottom">Invoice</p>
+      <div class="row m-1">
+        <div class="col-8 border">
+          <p class="lead m-1 border-bottom">Products</p>
+          <table class="table table-dark table-hover">
+            <tbody>
+              <tr>
+                <td>Cars</td>
+                <td>5</td>
+                <td>4589 Tk</td>
+                <td>5%</td>
+                <td>4000 Tk</td>
+                <td><button mat-icon-button color="primary">
+                    <mat-icon>add</mat-icon>
+                  </button></td>
+                <td><button mat-icon-button color="warn">
+                    <mat-icon>remove</mat-icon>
+                  </button></td>
+              </tr>
+              <tr>
+                <td>Cars</td>
+                <td>5</td>
+                <td>4589 Tk</td>
+                <td>5%</td>
+                <td>4000 Tk</td>
+                <td><button mat-icon-button color="primary">
+                    <mat-icon>add</mat-icon>
+                  </button></td>
+                <td><button mat-icon-button color="warn">
+                    <mat-icon>remove</mat-icon>
+                  </button></td>
+              </tr>
+              <tr>
+                <td>Cars</td>
+                <td>5</td>
+                <td>4589 Tk</td>
+                <td>5%</td>
+                <td>4000 Tk</td>
+                <td><button mat-icon-button color="primary">
+                    <mat-icon>add</mat-icon>
+                  </button></td>
+                <td><button mat-icon-button color="warn">
+                    <mat-icon>remove</mat-icon>
+                  </button></td>
+              </tr>
+              <tr>
+                <td>Cars</td>
+                <td>5</td>
+                <td>4589 Tk</td>
+                <td>5%</td>
+                <td>4000 Tk</td>
+                <td><button mat-icon-button color="primary">
+                    <mat-icon>add</mat-icon>
+                  </button></td>
+                <td><button mat-icon-button color="warn">
+                    <mat-icon>remove</mat-icon>
+                  </button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-4 border">
+          <p class="lead m-1 border-bottom">Summary</p>
+          <table class="table table-dark table-hover">
+            <tbody>
+              <tr>
+                <td>Total Item</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>Total Products</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>Total Price</td>
+                <td>5600 Tk</td>
+              </tr>
+              <tr>
+                <td>Total Discounts</td>
+                <td>12%</td>
+              </tr>
+              <tr>
+                <td>Net Total Price</td>
+                <td>5400 Tk</td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="mb-2 btn-block" mat-flat-button color="accent">Checkout</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-3 border">
+      <p class="lead border-bottom">Enter data</p>
+      <div class="row mb-3">
+        <div class="col-12">
+            <div class="input-group mb-2">
+                <input type="text" class="form-control bg-dark text-white" placeholder="Product Name">
+                <div class="input-group-append">
+                  <button mat-stroked-button color="primary" class="rounded-left-0"><mat-icon>search</mat-icon></button>
+                </div>
+              </div>
+          <table class="table table-dark table-hover">
+            <tbody>
+              <tr>
+                <td>Product Name</td>
+                <td>Cars</td>
+              </tr>
+              <tr>
+                  <td>price</td>
+                  <td>5600 Tk</td>
+              </tr>
+              <tr>
+                <td>Discount</td>
+                <td>2%</td>
+              </tr>
+              <tr>
+                <td>In stock</td>
+                <td>35</td>
+              </tr>
+              <tr>
+                <td>Quantity</td>
+                <td>
+                  <button mat-icon-button color="accent"><mat-icon>add</mat-icon></button> 
+                  25 
+                  <button mat-icon-button color="warn"><mat-icon>remove</mat-icon></button>
+                </td>
+              </tr>
+              <tr>
+                <td>Total price</td>
+                <td>2563 Tk</td>
+              </tr>
+              <tr>
+                <td>Net price</td>
+                <td>2459 Tk</td>
+              </tr>
+              
+            </tbody>
+          </table>
+          <div class="input-group">
+            <input type="text" class="form-control bg-dark text-white" placeholder="Discounts">
+            <div class="input-group-append">
+              <span class="input-group-text bg-dark" id="basic-addon2">%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button mat-flat-button class="btn-block mb-3 float-right" color="primary">Add</button>
+    </div>
+  </div>
+</div>

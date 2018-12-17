@@ -1,0 +1,23 @@
+.example-container {
+    margin-top: 56px;
+}
+
+  
+.example-sidenav {
+    position: fixed;
+    top: 56px;
+    width: 200px;
+}
+
+.menu {
+    z-index:3;
+}
+
+.routeContainer {
+    position: relative;
+    overflow: hidden;
+}
+
+.routeContainer>* {
+    display: block;
+}

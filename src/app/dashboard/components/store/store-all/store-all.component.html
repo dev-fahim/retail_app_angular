@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <p class="lead">All Stores</p>
+      <mat-divider class="mb-4"></mat-divider>
+      <div class="alert alert-danger lead" *ngIf="!showTable">
+        No store is associated with this account.
+      </div>
+      <table class="table table-dark table-bordered table-hover" *ngIf="showTable">
+        <thead class="bg-secondary">
+          <th *ngFor="let head of table_headings">{{ head | titlecase }}</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of table_data; let i = index;">
+            <td>{{ (i + 1) }}</td>
+            <td>{{ data.store_name | titlecase }}</td>
+            <td>{{ data.store_address | titlecase }}</td>
+            <td>{{ data.store_lcs_type | titlecase }}</td>
+            <td>{{ data.store_type | titlecase }}</td>
+            <td>{{ data.total_products }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+  <div class="container">
+    <img src="http://127.0.0.1:8000/media/onlinelogomaker-120618-1854-8093-2000-transparent.png" class="d-inline-block align-top" alt="fgfdg">
+    <ul class="navbar-nav">
+      <li class="nav-item" routerLinkActive="active">
+        <button mat-flat-button color="primary" [routerLink]="['signin']" *ngIf="!authService.isLoggedIn()">Sign in</button>
+        <button mat-flat-button color="primary" (click)="onLogout()" *ngIf="authService.isLoggedIn()">Sign out</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>
