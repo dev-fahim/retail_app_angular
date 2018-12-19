@@ -1,0 +1,10 @@
+<p class="lead">Daily Sales Entry
+  <span class="float-right">
+    Store 1
+    <button mat-flat-button [matMenuTriggerFor]="menu" color="basic">Store</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Store 1</button>
+      <button mat-menu-item>Store 2</button>
+    </mat-menu>
+  </span>
+</p>

@@ -1,0 +1,61 @@
+<p class="lead border-bottom">Enter data</p>
+<div class="row mb-3">
+  <div class="col-12">
+    <div class="input-group mb-2">
+      <input type="text" class="form-control bg-dark text-white" placeholder="Product Name">
+      <div class="input-group-append">
+        <button mat-stroked-button color="primary" class="rounded-left-0">
+          <mat-icon>search</mat-icon>
+        </button>
+      </div>
+    </div>
+    <table class="table table-dark table-hover">
+      <tbody>
+        <tr>
+          <td>Product Name</td>
+          <td>Cars</td>
+        </tr>
+        <tr>
+          <td>price</td>
+          <td>5600 Tk</td>
+        </tr>
+        <tr>
+          <td>Discount</td>
+          <td>2%</td>
+        </tr>
+        <tr>
+          <td>In stock</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>Quantity</td>
+          <td>
+            <button mat-icon-button color="accent">
+              <mat-icon>add</mat-icon>
+            </button>
+            25
+            <button mat-icon-button color="warn">
+              <mat-icon>remove</mat-icon>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Total price</td>
+          <td>2563 Tk</td>
+        </tr>
+        <tr>
+          <td>Net price</td>
+          <td>2459 Tk</td>
+        </tr>
+
+      </tbody>
+    </table>
+    <div class="input-group">
+      <input type="text" class="form-control bg-dark text-white" placeholder="Discounts">
+      <div class="input-group-append">
+        <span class="input-group-text bg-dark" id="basic-addon2">%</span>
+      </div>
+    </div>
+  </div>
+</div>
+<button mat-flat-button class="btn-block mb-3 float-right" color="primary">Add</button>

@@ -19,6 +19,10 @@ import { StoreAllComponent } from './components/store/store-all/store-all.compon
 import { SalesComponent } from './components/sales/sales.component';
 import { DailyAddComponent } from './components/sales/daily-add/daily-add.component';
 import { ProductSearchComponent } from './components/sales/product-search/product-search.component';
+import { DailySalesSummaryComponent } from './components/sales/daily-sales-summary/daily-sales-summary.component';
+import { DailySalesBasketComponent } from './components/sales/daily-sales-basket/daily-sales-basket.component';
+import { DailySalesProductDetailsComponent } from './components/sales/daily-sales-product-details/daily-sales-product-details.component';
+import { DailySalesNavMenuComponent } from './components/sales/daily-sales-nav-menu/daily-sales-nav-menu.component';
 
 @NgModule({
     imports: [
@@ -42,6 +46,10 @@ import { ProductSearchComponent } from './components/sales/product-search/produc
         SalesComponent,
         DailyAddComponent,
         ProductSearchComponent,
+        DailySalesSummaryComponent,
+        DailySalesBasketComponent,
+        DailySalesProductDetailsComponent,
+        DailySalesNavMenuComponent,
     ]
 })
 export class DashboardModule {}
